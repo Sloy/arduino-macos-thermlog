@@ -10,6 +10,8 @@
   "author": "Sloydev",
   "license": "ISC",
   "dependencies": {
-    "serialport": "^8.0.7"
+    "osx-temperature-sensor": "^1.0.5",
+    "serialport": "^8.0.7",
+    "systeminformation": "^4.23.5"
   }
 }

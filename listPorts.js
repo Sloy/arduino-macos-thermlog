@@ -1,20 +1,12 @@
-var Serialport = require('serialport');
+var SerialPort = require('serialport');
 
 // List serial ports:
-Serialport.list()
+/*
+SerialPort.list()
     .then((ports) => {
         ports.forEach(function (port) {
             console.log(port.path);
         });
     })
 
-function getConnectedArduino() {
-    SerialPort.list()
-        .then((ports) => {
-            let matchingPort = ports.find(port => {
-                manufacturer = port['manufacturer']
-                return typeof manufacturer !== 'undefined' && manufacturer.includes('arduino')
-            })
-            return matchingPort.comName.toString();
-        })
-}
+    */
